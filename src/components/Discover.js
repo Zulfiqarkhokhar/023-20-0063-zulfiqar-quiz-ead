@@ -60,7 +60,12 @@ const Project = () => {
                 <h6 className="m-4">Cheapest</h6>
                 <h6 className="m-4">Newest</h6>
               </div>
-              <Button variant="outline-success">Filter</Button>
+              <Button
+                style={{ backgroundColor: "#9643E3" }}
+                variant="secondary"
+              >
+                Filter
+              </Button>
             </div>
           </Container>
         </Navbar>
@@ -72,12 +77,19 @@ const Project = () => {
               <Card>
                 <Card.Img variant="top" src={project.img} />
                 <Card.Body>
-                  <Card.Title>{project.name}</Card.Title>
+                  <Card.Title style={{ color: "white" }}>
+                    {project.name}
+                  </Card.Title>
                   <Card.Text>lorem ipsum</Card.Text>
                   <hr></hr>
                   <div className="d-flex">
                     <p>Ends in 1.02.2</p>
-                    <Button className="d-flex justify-content-end">BID</Button>
+                    <Button
+                      className="d-flex justify-content-end"
+                      variant="outline-secondary"
+                    >
+                      BID
+                    </Button>
                   </div>
                 </Card.Body>
               </Card>

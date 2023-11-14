@@ -17,10 +17,14 @@ function HeroSection() {
             purus vestibulum nibh mi venenatis
           </p>
           <div className="d-flex flex-row ms-5">
-            <Button className="m-2" variant="outline-success">
+            <Button
+              style={{ backgroundColor: "#9643E3" }}
+              className="m-2"
+              variant="secondary"
+            >
               Explore
             </Button>
-            <Button className="m-2" variant="outline-success">
+            <Button className="m-2" variant="outline-secondary">
               Create
             </Button>
           </div>

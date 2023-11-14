@@ -37,10 +37,10 @@ function Header() {
               </div>
             </Nav>
 
-            <Button className="m-2" variant="outline-success">
+            <Button className="m-2" variant="outline-secondary">
               Create
             </Button>
-            <Button variant="outline-success">Sign in</Button>
+            <Button variant="secondary">Sign in</Button>
           </Navbar.Collapse>
         </Container>
       </Navbar>
