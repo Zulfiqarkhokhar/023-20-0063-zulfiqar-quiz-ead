@@ -52,7 +52,7 @@ const Project = () => {
         <Navbar expand="lg">
           <Container fluid>
             <Navbar.Brand href="#">
-              <h1>Discover</h1>
+              <h1 style={{ color: "white" }}>Discover</h1>
             </Navbar.Brand>
             <div className="d-flex">
               <div className="d-flex">

@@ -9,7 +9,9 @@ function Header() {
     <div style={{ color: "white" }} className="container">
       <Navbar expand="lg" className=" text-white">
         <Container fluid>
-          <Navbar.Brand href="#">FASTECH</Navbar.Brand>
+          <Navbar.Brand style={{ color: "white" }} href="#">
+            FASTECH
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -19,10 +21,18 @@ function Header() {
             >
               <div className="container text-white">
                 <div className="d-flex align-items-center justify-content-center">
-                  <Nav.Link href="#action1">Home</Nav.Link>
-                  <Nav.Link href="#action2">My Profile</Nav.Link>
-                  <Nav.Link href="#action3">Activity</Nav.Link>
-                  <Nav.Link href="#action4">How It Works</Nav.Link>
+                  <Nav.Link style={{ color: "white" }} href="#action1">
+                    Home
+                  </Nav.Link>
+                  <Nav.Link style={{ color: "white" }} href="#action2">
+                    My Profile
+                  </Nav.Link>
+                  <Nav.Link style={{ color: "white" }} href="#action3">
+                    Activity
+                  </Nav.Link>
+                  <Nav.Link style={{ color: "white" }} href="#action4">
+                    How It Works
+                  </Nav.Link>
                 </div>
               </div>
             </Nav>
